@@ -1,1 +1,3 @@
-# cicd-docker
+# maven-project
+
+Simple Maven Project
