@@ -2,7 +2,7 @@ version: "3"
 services: 
   tomcat:
     conatiner-name: tomcat
-    sh: docker build -itd . -f Dockerfile
+    sh: docker run -itd tomcat
     ports:
      - "8090:8080
     volumes:
