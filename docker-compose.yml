@@ -1,0 +1,12 @@
+version: "3"
+services: 
+  tomcat:
+    conatiner-name: tomcat
+    sh: docker build -itd . -f Dockerfile
+    ports:
+     - "8090:8080
+    volumes:
+     - santsm:/usr/local/tomca
+
+volumes: 
+   name: santsm
